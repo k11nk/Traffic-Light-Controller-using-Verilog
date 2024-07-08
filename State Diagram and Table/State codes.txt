@@ -1,0 +1,40 @@
+R = RED,
+Y = YELLOW and,
+G = GREEN.
+
+In state S1(001);
+      1. M1 = GREEN, implies, RYG value = 001,
+      2. MT = RED, implies, RYG value = 100,
+      3. M2 = GREEN, implies, RYG value = 001 and,
+      4. S = RED, implies, RYG value = 100.
+     
+In state S2(010);
+      1. M1 = GREEN, implies, RYG value = 001, 
+      2. MT = RED, implies, RYG value = 100,     
+      3. M2 = YELLOW, implies, RYG value = 010 and,
+      4. S = RED, implies, RYG value = 100.
+      
+In state S3(011);
+      1. M1 = GREEN, implies, RYG value = 001,
+      2. MT = GREEN, implies, RYG value = 001,
+      3. M2 = RED, implies, RYG value = 100 and,
+      4. S = RED, implies, RYG value = 100.
+      
+In state S4(100);
+      1. M1 = YELLOW, implies, RYG value = 010,
+      2. MT = YELLOW, implies, RYG value = 010,
+      3. M2 = RED, implies, RYG value = 100 and,
+      4. S = RED, implies, RYG value = 100.
+      
+In state S5(101);
+      1. M1 = RED, implies, RYG value = 100,
+      2. MT = RED, implies, RYG value = 100,
+      3. M2 = RED, implies, RYG value = 100 and,
+      4. S = GREEN, implies, RYG value = 001.
+      
+In state S6(110);
+       1. M1 = RED, implies, RYG value = 100,
+       2. MT = RED, implies, RYG value = 100,
+       3. M2 = RED, implies, RYG value = 100 and,
+       4. S = YELLOW, implies, RYG value = 010.
+
